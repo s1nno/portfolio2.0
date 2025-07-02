@@ -30,7 +30,7 @@ export default function Projects() {
               with navigating around the objects in the user&apos;s path
             </li>
             <li>
-              Integrated Tesseract and ServiceNow's ExecuteNowLLM API for
+              Integrated Tesseract and ServiceNow&apos;s ExecuteNowLLM API for
               real-time text scanning and reading
             </li>
             <li>
