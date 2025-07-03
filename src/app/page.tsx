@@ -26,15 +26,15 @@ export default function Home() {
           </p>
           <p className="text-lg text-[#b3e0ff]/80 mb-4">
             When I&apos;m not coding, you can find me visiting aquariums,
-            watching sports (UFC, basketball, football - go Dolphins), catching
-            live music, or watching movies{" "}
+            watching sports, catching
+            live music, watching {" "}
             <a
               href="https://letterboxd.com/sinno/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-orange-400 hover:underline"
             >
-              Letterboxd
+              movies
             </a>
             , playing video games and just spending time outside.
           </p>
@@ -182,32 +182,5 @@ export default function Home() {
           </a>
         </div>
       </section>
-      <div className="text-center mt-8">
-        <a
-          href="https://vercel.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 text-[#b3e0ff]/60 hover:text-[#4fd1c5] transition-colors text-sm"
-        >
-          <span>Deployed on</span>
-          <svg
-            width="76"
-            height="20"
-            viewBox="0 0 76 20"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M37.5274 0L75.0548 0H71.8778L37.5274 13.8828L3.17688 0H0L37.5274 0Z"
-              fill="currentColor"
-            />
-            <path
-              d="M37.5274 20L75.0548 20H71.8778L37.5274 6.11719L3.17688 20H0L37.5274 20Z"
-              fill="currentColor"
-            />
-          </svg>
-        </a>
-      </div>
-    </div>
   );
 }
