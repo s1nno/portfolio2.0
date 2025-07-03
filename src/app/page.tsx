@@ -14,20 +14,25 @@ export default function Home() {
         />
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-3xl font-bold text-[#b3e0ff] mb-2">
-            Hayden Sandler
+            Hey, I&apos;m Hayden
           </h1>
           <p className="text-lg text-[#b3e0ff]/80 mb-4">
-            Hi! I&apos;m Hayden, I&apos;m a Computer Science student, from the
-            University of Central Florida, and aspiring software engineer.
-            Focused on full stack development, distributed systems. I&apos;m
-            interested in working on retrieval augmented generation and computer
-            vision. I enjoy learning new technologies and building scalable
-            solutions.
+            I&apos;m a Computer Science student from the University of Central
+            Florida and a software engineer. I&apos;m specifically interested in
+            working on projects involving full stack development, API
+            development, distributed systems, computer vision, retrieval
+            augmented generation (RAG), and machine learning.
           </p>
           <p className="text-lg text-[#b3e0ff]/80 mb-4">
             When I&apos;m not coding, you can find me visiting aquariums,
-            watching sports, catching
-            live music, watching {" "}
+            watching{" "}
+            <span className="relative group inline-block text-orange-400 cursor-pointer">
+              sports
+              <span className="absolute left-1/2 -translate-x-1/2 bottom-full mb-0.5 px-3 py-2 rounded bg-[#0a2233] text-orange-400 text-xs shadow-lg opacity-0 group-hover:opacity-100 transition-opacity z-10 whitespace-nowrap">
+                Go Dolphins!
+              </span>
+            </span>
+            , catching live music, watching{" "}
             <a
               href="https://letterboxd.com/sinno/"
               target="_blank"
@@ -146,7 +151,7 @@ export default function Home() {
                 Kubernetes
               </span>
               <span className="px-3 py-1 bg-[#1b3a4b] text-[#b3e0ff] rounded-full text-sm">
-                Langchain
+                LangChain
               </span>
               <span className="px-3 py-1 bg-[#1b3a4b] text-[#b3e0ff] rounded-full text-sm">
                 Jupyter Notebook
@@ -156,7 +161,7 @@ export default function Home() {
         </div>
       </section>
       <section className="w-full max-w-4xl mt-8">
-        <h2 className="text-2xl font-semibold text-[#b3e0ff] mb-4">Contact</h2>
+        <h2 className="text-2xl font-semibold text-[#b3e0ff] mb-4">Links</h2>
         <div className="flex flex-col md:flex-row gap-4 justify-center">
           <a
             href="https://github.com/s1nno"
@@ -182,5 +187,6 @@ export default function Home() {
           </a>
         </div>
       </section>
+    </div>
   );
 }

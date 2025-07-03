@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-[70vh] px-4">
+    <div className="flex flex-col items-center justify-center min-h-[70vh] px-4 py-8 pb-20">
       <h1 className="text-3xl font-bold text-[#b3e0ff] mb-8">Projects</h1>
       <div className="w-full max-w-3xl space-y-8">
         {/* SensAI */}
@@ -16,7 +16,7 @@ export default function Projects() {
               rel="noopener noreferrer"
               className="text-[#b3e0ff] underline hover:text-[#4fd1c5] text-sm"
             >
-              GitHub ↗
+              GitHub
             </a>
           </div>
           <ul className="list-disc list-inside text-[#b3e0ff]/90 text-sm pl-4 space-y-1 mb-4">
@@ -65,7 +65,7 @@ export default function Projects() {
               rel="noopener noreferrer"
               className="text-[#b3e0ff] underline hover:text-[#4fd1c5] text-sm"
             >
-              GitHub ↗
+              GitHub
             </a>
           </div>
           <ul className="list-disc list-inside text-[#b3e0ff]/90 text-sm pl-4 space-y-1 mb-4">
@@ -121,7 +121,7 @@ export default function Projects() {
               rel="noopener noreferrer"
               className="text-[#b3e0ff] underline hover:text-[#4fd1c5] text-sm"
             >
-              GitHub ↗
+              GitHub
             </a>
           </div>
           <ul className="list-disc list-inside text-[#b3e0ff]/90 text-sm pl-4 space-y-1 mb-4">
@@ -198,6 +198,102 @@ export default function Projects() {
             </span>
             <span className="px-3 py-1 bg-[#1b3a4b] text-[#b3e0ff] rounded-full text-xs">
               HTML
+            </span>
+          </div>
+        </div>
+        {/* Connect4 */}
+        <div className="bg-[#0a2233]/95 rounded-lg p-6 shadow">
+          <div className="flex items-center justify-between mb-2">
+            <h2 className="text-xl font-semibold text-[#4fd1c5]">Connect4</h2>
+            <a
+              href="https://github.com/s1nno/Connect-4-"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#b3e0ff] underline hover:text-[#4fd1c5] text-sm"
+            >
+              GitHub
+            </a>
+          </div>
+          <ul className="list-disc list-inside text-[#b3e0ff]/90 text-sm pl-4 space-y-1 mb-4">
+            <li>
+              Developed a native Connect 4 Android app using Java and XML in
+              Android Studio
+            </li>
+            <li>
+              Implemented core game logic, win detection, and interactive UI
+              from scratch
+            </li>
+            <li>
+              Handled user input, animations, and ensured a smooth mobile
+              gameplay experience
+            </li>
+          </ul>
+          <div className="flex flex-wrap gap-2">
+            <span className="px-3 py-1 bg-[#1b3a4b] text-[#b3e0ff] rounded-full text-xs">
+              Java
+            </span>
+            <span className="px-3 py-1 bg-[#1b3a4b] text-[#b3e0ff] rounded-full text-xs">
+              XML
+            </span>
+            <span className="px-3 py-1 bg-[#1b3a4b] text-[#b3e0ff] rounded-full text-xs">
+              Android Studio
+            </span>
+          </div>
+        </div>
+        {/* Fantasy Lens */}
+        <div className="bg-[#0a2233]/95 rounded-lg p-6 shadow">
+          <div className="flex items-center justify-between mb-2">
+            <h2 className="text-xl font-semibold text-[#4fd1c5]">
+              Fantasy Lens
+            </h2>
+          </div>
+          <ul className="list-disc list-inside text-[#b3e0ff]/90 text-sm pl-4 space-y-1 mb-4">
+            <li>
+              Collaborated at UCF's 2023 hackathon to build a web app that
+              transforms user-uploaded photos into Dungeons & Dragons characters
+              using generative AI
+            </li>
+            <li>
+              Integrated DeepAI's API to edit images based on user-selected
+              character prompts
+            </li>
+          </ul>
+          <div className="flex flex-wrap gap-2">
+            <span className="px-3 py-1 bg-[#1b3a4b] text-[#b3e0ff] rounded-full text-xs">
+              React.js
+            </span>
+            <span className="px-3 py-1 bg-[#1b3a4b] text-[#b3e0ff] rounded-full text-xs">
+              JavaScript
+            </span>
+            <span className="px-3 py-1 bg-[#1b3a4b] text-[#b3e0ff] rounded-full text-xs">
+              CSS
+            </span>
+
+            <span className="px-3 py-1 bg-[#1b3a4b] text-[#b3e0ff] rounded-full text-xs">
+              DeepAI API
+            </span>
+          </div>
+        </div>
+        {/* PL/0 Compiler */}
+        <div className="bg-[#0a2233]/95 rounded-lg p-6 shadow">
+          <div className="flex items-center justify-between mb-2">
+            <h2 className="text-xl font-semibold text-[#4fd1c5]">
+              PL/0 Compiler
+            </h2>
+          </div>
+          <ul className="list-disc list-inside text-[#b3e0ff]/90 text-sm pl-4 space-y-1 mb-4">
+            <li>
+              Fully implemented a compiler for the PL/0 programming language in
+              C
+            </li>
+            <li>
+              Streamlined debugging with stringent syntax checking and
+              compile-time errors
+            </li>
+          </ul>
+          <div className="flex flex-wrap gap-2">
+            <span className="px-3 py-1 bg-[#1b3a4b] text-[#b3e0ff] rounded-full text-xs">
+              C
             </span>
           </div>
         </div>

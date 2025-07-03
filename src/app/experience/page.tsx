@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Experience() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-[70vh] px-4">
+    <div className="flex flex-col items-center justify-center min-h-[70vh] px-4 py-8 pb-20">
       <h1 className="text-3xl font-bold text-[#b3e0ff] mb-8">Experience</h1>
       <div className="w-full max-w-2xl space-y-8">
         <div className="bg-[#0a2233]/80 rounded-lg p-6 shadow">
