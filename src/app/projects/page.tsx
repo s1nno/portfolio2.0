@@ -249,12 +249,12 @@ export default function Projects() {
           </div>
           <ul className="list-disc list-inside text-[#b3e0ff]/90 text-sm pl-4 space-y-1 mb-4">
             <li>
-              Collaborated at UCF's 2023 hackathon to build a web app that
-              transforms user-uploaded photos into Dungeons & Dragons characters
-              using generative AI
+              Collaborated at UCF&apos;s 2023 hackathon to build a web app that
+              transforms user-uploaded photos into Dungeons &amp; Dragons
+              characters using generative AI
             </li>
             <li>
-              Integrated DeepAI's API to edit images based on user-selected
+              Integrated DeepAI&apos;s API to edit images based on user-selected
               character prompts
             </li>
           </ul>
